@@ -253,6 +253,6 @@ class PandaEnv(gym.Env):
 
 
 if __name__ == "__main__":
-    model_path = "/home/wilterovago/work/panda-rl/agents/models/PPO_PandaEnv/PPO_PandaEnv_13_JS.zip"
+    model_path = "/home/wilterovago/work/panda-rl/agents/models/PPO_PandaEnv/PPO_PandaEnv_14_JS.zip"
     env = PandaEnv(use_gui=True)
     env.test(model_path)

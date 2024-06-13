@@ -1,0 +1,17 @@
+gym
+numpy
+pybullet
+scipy
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[extra]
+numpngw
+stable-baselines3
+
+[tests]
+black
+pytest
+pytype

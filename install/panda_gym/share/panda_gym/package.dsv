@@ -1,0 +1,3 @@
+source;share/panda_gym/hook/pythonpath.ps1
+source;share/panda_gym/hook/pythonpath.dsv
+source;share/panda_gym/hook/pythonpath.sh

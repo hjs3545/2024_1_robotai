@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000574] (panda_gym) JobQueued: {'identifier': 'panda_gym', 'dependencies': OrderedDict()}
+[0.000807] (panda_gym) JobStarted: {'identifier': 'panda_gym'}
+[0.096572] (-) TimerEvent: {}
+[0.197148] (-) TimerEvent: {}
+[0.297729] (-) TimerEvent: {}
+[0.398311] (-) TimerEvent: {}
+[0.498936] (-) TimerEvent: {}
+[0.599800] (-) TimerEvent: {}
+[0.700696] (-) TimerEvent: {}
+[0.801294] (-) TimerEvent: {}
+[0.901949] (-) TimerEvent: {}
+[1.002629] (-) TimerEvent: {}
+[1.103224] (-) TimerEvent: {}
+[1.203820] (-) TimerEvent: {}
+[1.304474] (-) TimerEvent: {}
+[1.405106] (-) TimerEvent: {}
+[1.505818] (-) TimerEvent: {}
+[1.606360] (-) TimerEvent: {}
+[1.707091] (-) TimerEvent: {}
+[1.769097] (panda_gym) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/panda_gym', 'build', '--build-base', '/home/wilterovago/work/build/panda_gym/build', 'install', '--record', '/home/wilterovago/work/build/panda_gym/install.log', '--single-version-externally-managed'], 'cwd': '/home/wilterovago/work/panda-gym', 'env': {'PYENV_VIRTUALENV_INIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(robotai)', 'USER': 'wilterovago', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wilterovago', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/wilterovago', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wilterovago', 'NAME': 'IDEAPAD1-15ALC7WORK', 'WSL_INTEROP': '/run/WSL/30476_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wilterovago/anaconda3/envs/robotai/bin:/home/wilterovago/anaconda3/condabin:/home/wilterovago/anaconda3/bin:/home/wilterovago/anaconda3/condabin:/home/wilterovago/.pyenv/plugins/pyenv-virtualenv/shims:/home/wilterovago/.pyenv/shims:/home/wilterovago/.pyenv/bin:/home/wilterovago/anaconda3/bin:/home/wilterovago/anaconda3/condabin:/home/wilterovago/.pyenv/plugins/pyenv-virtualenv/shims:/home/wilterovago/.pyenv/bin:/home/wilterovago/anaconda3/bin:/home/wilterovago/anaconda3/condabin:/opt/ros/humble/bin:/home/wilterovago/.pyenv/plugins/pyenv-virtualenv/shims:/home/wilterovago/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Wilter Ovago/.jdks/corretto-17.0.10/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Bandizip:/mnt/c/Users/Wilter Ovago/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/Wilter Ovago/AppData/Local/Programs/Python/Python312:/mnt/c/Users/Wilter Ovago/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Wilter Ovago/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/bin:/mnt/c/Program Files/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'CONDA_PREFIX_1': '/home/wilterovago/anaconda3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/wilterovago/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'robotai', 'ws': '/home/wilterovago/basic_ws', 'PWD': '/home/wilterovago/work/build/panda_gym', 'CONDA_EXE': '/home/wilterovago/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilterovago/work/build/panda_gym/prefix_override:/home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/wilterovago/anaconda3/envs/robotai', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.807444] (-) TimerEvent: {}
+[1.908321] (-) TimerEvent: {}
+[2.009135] (-) TimerEvent: {}
+[2.109758] (-) TimerEvent: {}
+[2.163114] (panda_gym) StdoutLine: {'line': b'running egg_info\n'}
+[2.164219] (panda_gym) StdoutLine: {'line': b'creating ../build/panda_gym/panda_gym.egg-info\n'}
+[2.165212] (panda_gym) StdoutLine: {'line': b'writing ../build/panda_gym/panda_gym.egg-info/PKG-INFO\n'}
+[2.165853] (panda_gym) StdoutLine: {'line': b'writing dependency_links to ../build/panda_gym/panda_gym.egg-info/dependency_links.txt\n'}
+[2.166306] (panda_gym) StdoutLine: {'line': b'writing requirements to ../build/panda_gym/panda_gym.egg-info/requires.txt\n'}
+[2.166983] (panda_gym) StdoutLine: {'line': b'writing top-level names to ../build/panda_gym/panda_gym.egg-info/top_level.txt\n'}
+[2.167211] (panda_gym) StdoutLine: {'line': b"writing manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'\n"}
+[2.172134] (panda_gym) StdoutLine: {'line': b"reading manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'\n"}
+[2.172451] (panda_gym) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.173576] (panda_gym) StdoutLine: {'line': b"writing manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'\n"}
+[2.174766] (panda_gym) StdoutLine: {'line': b'running build\n'}
+[2.175033] (panda_gym) StdoutLine: {'line': b'running build_py\n'}
+[2.175324] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build\n'}
+[2.176020] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib\n'}
+[2.177197] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym\n'}
+[2.177804] (panda_gym) StdoutLine: {'line': b'copying panda_gym/utils.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym\n'}
+[2.178897] (panda_gym) StdoutLine: {'line': b'copying panda_gym/pybullet.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym\n'}
+[2.179881] (panda_gym) StdoutLine: {'line': b'copying panda_gym/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym\n'}
+[2.181754] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets\n'}
+[2.182582] (panda_gym) StdoutLine: {'line': b'copying panda_gym/assets/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets\n'}
+[2.183666] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs\n'}
+[2.185220] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/core.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs\n'}
+[2.186551] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs\n'}
+[2.189163] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.189834] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/pick_and_place.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.190701] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/slide.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.192510] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/push.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.193653] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/reach.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.194610] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/flip.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.195396] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/stack.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.196141] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/tasks/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks\n'}
+[2.196660] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.197276] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_reach.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.198333] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_push.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.199361] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_slide.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.200470] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_stack.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.201199] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_pick_and_place.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.202221] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/panda_flip.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.203395] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/panda_tasks/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks\n'}
+[2.204034] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots\n'}
+[2.204705] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/robots/panda.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots\n'}
+[2.205434] (panda_gym) StdoutLine: {'line': b'copying panda_gym/envs/robots/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots\n'}
+[2.206211] (panda_gym) StdoutLine: {'line': b'copying panda_gym/version.txt -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym\n'}
+[2.207197] (panda_gym) StdoutLine: {'line': b'running install\n'}
+[2.207856] (panda_gym) StdoutLine: {'line': b'running install_lib\n'}
+[2.209050] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym\n'}
+[2.209775] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/version.txt -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym\n'}
+[2.210109] (-) TimerEvent: {}
+[2.210559] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets\n'}
+[2.210980] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets\n'}
+[2.211429] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/utils.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym\n'}
+[2.212033] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs\n'}
+[2.213152] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/core.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs\n'}
+[2.213717] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.214741] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/pick_and_place.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.215659] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/slide.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.216389] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/push.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.216521] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/reach.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.216612] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/flip.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.216700] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/stack.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.216993] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks\n'}
+[2.217804] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.218837] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_reach.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.219759] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_push.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.220147] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_slide.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.220697] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_stack.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.221131] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_pick_and_place.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.221453] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_flip.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.222039] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks\n'}
+[2.222242] (panda_gym) StdoutLine: {'line': b'creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots\n'}
+[2.222806] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots/panda.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots\n'}
+[2.224429] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots\n'}
+[2.225118] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs\n'}
+[2.225314] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/pybullet.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym\n'}
+[2.225678] (panda_gym) StdoutLine: {'line': b'copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym\n'}
+[2.226609] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets/__init__.py to __init__.cpython-310.pyc\n'}
+[2.228315] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/utils.py to utils.cpython-310.pyc\n'}
+[2.229280] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/core.py to core.cpython-310.pyc\n'}
+[2.232732] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/pick_and_place.py to pick_and_place.cpython-310.pyc\n'}
+[2.235782] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/slide.py to slide.cpython-310.pyc\n'}
+[2.237607] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/push.py to push.cpython-310.pyc\n'}
+[2.240114] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/reach.py to reach.cpython-310.pyc\n'}
+[2.241381] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/flip.py to flip.cpython-310.pyc\n'}
+[2.243133] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/stack.py to stack.cpython-310.pyc\n'}
+[2.245666] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/__init__.py to __init__.cpython-310.pyc\n'}
+[2.246355] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_reach.py to panda_reach.cpython-310.pyc\n'}
+[2.247222] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_push.py to panda_push.cpython-310.pyc\n'}
+[2.247871] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_slide.py to panda_slide.cpython-310.pyc\n'}
+[2.248831] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_stack.py to panda_stack.cpython-310.pyc\n'}
+[2.249782] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_pick_and_place.py to panda_pick_and_place.cpython-310.pyc\n'}
+[2.251554] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_flip.py to panda_flip.cpython-310.pyc\n'}
+[2.253145] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/__init__.py to __init__.cpython-310.pyc\n'}
+[2.253839] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots/panda.py to panda.cpython-310.pyc\n'}
+[2.256965] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots/__init__.py to __init__.cpython-310.pyc\n'}
+[2.257918] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/__init__.py to __init__.cpython-310.pyc\n'}
+[2.258173] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/pybullet.py to pybullet.cpython-310.pyc\n'}
+[2.262602] (panda_gym) StdoutLine: {'line': b'byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/__init__.py to __init__.cpython-310.pyc\n'}
+[2.263493] (panda_gym) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.267544] (panda_gym) StdoutLine: {'line': b'Copying ../build/panda_gym/panda_gym.egg-info to /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym-2.0.0a0-py3.10.egg-info\n'}
+[2.269417] (panda_gym) StdoutLine: {'line': b'running install_scripts\n'}
+[2.302800] (panda_gym) StdoutLine: {'line': b"writing list of installed files to '/home/wilterovago/work/build/panda_gym/install.log'\n"}
+[2.310433] (-) TimerEvent: {}
+[2.355608] (panda_gym) CommandEnded: {'returncode': 0}
+[2.402970] (panda_gym) JobEnded: {'identifier': 'panda_gym', 'rc': 0}
+[2.406222] (-) EventReactorShutdown: {}

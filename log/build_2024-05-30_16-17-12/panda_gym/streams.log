@@ -1,0 +1,102 @@
+[1.784s] Invoking command in '/home/wilterovago/work/panda-gym': CONDA_PROMPT_MODIFIER=(robotai) PYTHONPATH=/home/wilterovago/work/build/panda_gym/prefix_override:/home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/panda_gym build --build-base /home/wilterovago/work/build/panda_gym/build install --record /home/wilterovago/work/build/panda_gym/install.log --single-version-externally-managed
+[2.162s] running egg_info
+[2.164s] creating ../build/panda_gym/panda_gym.egg-info
+[2.164s] writing ../build/panda_gym/panda_gym.egg-info/PKG-INFO
+[2.165s] writing dependency_links to ../build/panda_gym/panda_gym.egg-info/dependency_links.txt
+[2.166s] writing requirements to ../build/panda_gym/panda_gym.egg-info/requires.txt
+[2.166s] writing top-level names to ../build/panda_gym/panda_gym.egg-info/top_level.txt
+[2.166s] writing manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'
+[2.171s] reading manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'
+[2.172s] adding license file 'LICENSE'
+[2.173s] writing manifest file '../build/panda_gym/panda_gym.egg-info/SOURCES.txt'
+[2.174s] running build
+[2.174s] running build_py
+[2.175s] creating /home/wilterovago/work/build/panda_gym/build
+[2.175s] creating /home/wilterovago/work/build/panda_gym/build/lib
+[2.176s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym
+[2.177s] copying panda_gym/utils.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym
+[2.178s] copying panda_gym/pybullet.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym
+[2.179s] copying panda_gym/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym
+[2.181s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets
+[2.182s] copying panda_gym/assets/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets
+[2.183s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs
+[2.185s] copying panda_gym/envs/core.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs
+[2.186s] copying panda_gym/envs/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs
+[2.188s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.189s] copying panda_gym/envs/tasks/pick_and_place.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.190s] copying panda_gym/envs/tasks/slide.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.192s] copying panda_gym/envs/tasks/push.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.193s] copying panda_gym/envs/tasks/reach.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.194s] copying panda_gym/envs/tasks/flip.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.195s] copying panda_gym/envs/tasks/stack.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.195s] copying panda_gym/envs/tasks/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks
+[2.196s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.197s] copying panda_gym/envs/panda_tasks/panda_reach.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.198s] copying panda_gym/envs/panda_tasks/panda_push.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.199s] copying panda_gym/envs/panda_tasks/panda_slide.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.200s] copying panda_gym/envs/panda_tasks/panda_stack.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.200s] copying panda_gym/envs/panda_tasks/panda_pick_and_place.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.202s] copying panda_gym/envs/panda_tasks/panda_flip.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.203s] copying panda_gym/envs/panda_tasks/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks
+[2.203s] creating /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots
+[2.204s] copying panda_gym/envs/robots/panda.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots
+[2.205s] copying panda_gym/envs/robots/__init__.py -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots
+[2.205s] copying panda_gym/version.txt -> /home/wilterovago/work/build/panda_gym/build/lib/panda_gym
+[2.206s] running install
+[2.207s] running install_lib
+[2.208s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym
+[2.209s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/version.txt -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym
+[2.210s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets
+[2.210s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/assets/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets
+[2.211s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/utils.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym
+[2.211s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs
+[2.213s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/core.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs
+[2.213s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.214s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/pick_and_place.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.215s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/slide.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.216s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/push.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.216s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/reach.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.216s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/flip.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.216s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/stack.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.216s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/tasks/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks
+[2.217s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.218s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_reach.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.219s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_push.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.219s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_slide.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.220s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_stack.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.221s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_pick_and_place.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.221s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/panda_flip.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.221s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/panda_tasks/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks
+[2.221s] creating /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots
+[2.222s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots/panda.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots
+[2.224s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/robots/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots
+[2.224s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/envs/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs
+[2.225s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/pybullet.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym
+[2.225s] copying /home/wilterovago/work/build/panda_gym/build/lib/panda_gym/__init__.py -> /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym
+[2.226s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/assets/__init__.py to __init__.cpython-310.pyc
+[2.228s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/utils.py to utils.cpython-310.pyc
+[2.229s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/core.py to core.cpython-310.pyc
+[2.232s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/pick_and_place.py to pick_and_place.cpython-310.pyc
+[2.235s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/slide.py to slide.cpython-310.pyc
+[2.237s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/push.py to push.cpython-310.pyc
+[2.239s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/reach.py to reach.cpython-310.pyc
+[2.241s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/flip.py to flip.cpython-310.pyc
+[2.242s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/stack.py to stack.cpython-310.pyc
+[2.245s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/tasks/__init__.py to __init__.cpython-310.pyc
+[2.246s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_reach.py to panda_reach.cpython-310.pyc
+[2.246s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_push.py to panda_push.cpython-310.pyc
+[2.247s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_slide.py to panda_slide.cpython-310.pyc
+[2.248s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_stack.py to panda_stack.cpython-310.pyc
+[2.249s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_pick_and_place.py to panda_pick_and_place.cpython-310.pyc
+[2.251s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/panda_flip.py to panda_flip.cpython-310.pyc
+[2.252s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/panda_tasks/__init__.py to __init__.cpython-310.pyc
+[2.253s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots/panda.py to panda.cpython-310.pyc
+[2.257s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/robots/__init__.py to __init__.cpython-310.pyc
+[2.257s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/envs/__init__.py to __init__.cpython-310.pyc
+[2.257s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/pybullet.py to pybullet.cpython-310.pyc
+[2.262s] byte-compiling /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym/__init__.py to __init__.cpython-310.pyc
+[2.263s] running install_egg_info
+[2.267s] Copying ../build/panda_gym/panda_gym.egg-info to /home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages/panda_gym-2.0.0a0-py3.10.egg-info
+[2.269s] running install_scripts
+[2.302s] writing list of installed files to '/home/wilterovago/work/build/panda_gym/install.log'
+[2.355s] Invoked command in '/home/wilterovago/work/panda-gym' returned '0': CONDA_PROMPT_MODIFIER=(robotai) PYTHONPATH=/home/wilterovago/work/build/panda_gym/prefix_override:/home/wilterovago/work/install/panda_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/panda_gym build --build-base /home/wilterovago/work/build/panda_gym/build install --record /home/wilterovago/work/build/panda_gym/install.log --single-version-externally-managed
